@@ -1,0 +1,45 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 20px;
+    text-align: center;
+    background-color: #dab5b5; /* Soft background color */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow for depth */
+    border-radius: 12px; /* Slightly rounded corners */
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.home-container:hover {
+    transform: scale(1.02); /* Slightly enlarges on hover */
+}
+
+.home-container h1 {
+    font-size: 2.5rem; /* Larger font size for impact */
+    color: #333;
+    margin-bottom: 15px; /* More space below the heading */
+}
+
+.home-container p {
+    font-size: 1.1rem; /* Slightly larger font size for better readability */
+    color: #555;
+    line-height: 1.5; /* Increases line height for readability */
+}
+
+.home-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px; /* Increased padding for a more substantial button */
+    border: none;
+    border-radius: 5px; /* Slightly more rounded corners */
+    cursor: pointer;
+    font-weight: bold; /* Bold text for emphasis */
+    transition: background-color 0.3s, transform 0.2s; /* Add transform transition */
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slightly enlarges on hover */
+}
